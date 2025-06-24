@@ -1,0 +1,53 @@
+# Flask web framework and extensions
+Flask==2.3.3
+flask-cors==4.0.0
+ollama== 0.9.1
+tinyllama
+
+python==3.13.2
+
+
+
+# HTTP requests library for API calls
+requests==2.31.0
+
+# PDF processing libraries
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# File handling and security
+Werkzeug==2.3.7
+
+# Type hints support
+typing-extensions==4.8.0
+
+# Authentication and security
+# Note: Werkzeug includes password hashing utilities
+
+# Additional dependencies that may be required
+# Text processing and regex (usually included with Python)
+# re - built-in module
+# json - built-in module
+# os - built-in module
+
+# Optional: For better PDF text extraction
+# pypdf==3.17.1  # Alternative to PyPDF2
+# pymupdf==1.23.8  # Alternative PDF library (fitz)
+
+# Optional: For enhanced text processing
+# nltk==3.8.1  # Natural language processing
+# spacy==3.7.2  # Advanced NLP
+
+# Environment variables and database
+python-dotenv==1.0.0  # Environment variables
+psycopg2-binary==2.9.7  # PostgreSQL adapter
+SQLAlchemy==2.0.23  # Database ORM
+Flask-SQLAlchemy==3.1.1  # Flask SQLAlchemy integration
+
+# Optional: For better error handling and logging
+# colorama==0.4.6  # Colored terminal output
+
+# Development dependencies (optional)
+# pytest==7.4.3  # Testing framework
+# black==23.9.1  # Code formatter
+# flake8==6.1.0  # Code linter
